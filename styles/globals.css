@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply font-body;
+}
+
+#__next {
+  @apply max-w-screen-xl md:max-w-screen-xl w-full
+}
+
+a,
+a:any-link {
+  @apply font-semibold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-flux uppercase tracking-wide;
+}
+
+.propBg {
+  @apply bg-propBg bg-no-repeat bg-center;
+  background-size: 100% 100%;
+}
