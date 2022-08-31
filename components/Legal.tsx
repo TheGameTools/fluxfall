@@ -4,7 +4,13 @@ import { urls } from '../data/urls'
 const Legal = () => (
   <section className="flex flex-col justify-center items-center max-w-screen-sm">
     <div className="text-center my-2">
-      <Image src="/fluxfall-legal.png" width="200" height="86" alt="Fluxfall Compatible" priority />
+      <Image
+        src="https://cdn.tabletop.media/thegame.tools/fluxfall/fluxfall-legal.png"
+        width="200"
+        height="86"
+        alt="Fluxfall Compatible"
+        loading="lazy"
+      />
     </div>
     <p>
       Fluxfall.TheGame.Tools is an independent production by{' '}

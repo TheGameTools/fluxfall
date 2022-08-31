@@ -26,6 +26,7 @@ const Home: NextPage = () => (
           title="How to play Fluxfall Horizon"
           adNetwork={false}
           noCookie={true}
+          poster="sddefault"
         />
       </div>
     </article>

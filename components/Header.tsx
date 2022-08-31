@@ -12,7 +12,7 @@ interface HeaderProps {
 }
 
 const Header = ({ name, sm = false }: HeaderProps) => {
-  let img = 'fluxfall-banner.png'
+  let img = 'fluxfall-banner.webp'
 
   switch (name) {
     case 'World Generator':
@@ -42,7 +42,7 @@ const Header = ({ name, sm = false }: HeaderProps) => {
           rel="noopener noreferrer"
         >
           <Image
-            src={`/${img}`}
+            src={`https://cdn.tabletop.media/thegame.tools/fluxfall/${img}`}
             layout="intrinsic"
             width={size[0]}
             height={size[1]}

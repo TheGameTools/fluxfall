@@ -2,6 +2,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['fluxfall.thegame.tools', 'thegame.tools', 'cnd.tabletop.media'],
+    domains: ['fluxfall.thegame.tools', 'thegame.tools', 'cdn.tabletop.media'],
   },
 }

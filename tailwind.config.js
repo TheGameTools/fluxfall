@@ -8,7 +8,7 @@ module.exports = {
         primary: '#ad0000',
       },
       backgroundImage: {
-        propBg: "url('/propbg.png')",
+        propBg: "url('https://cdn.tabletop.media/thegame.tools/fluxfall/propbg.png')",
       },
     },
     fontFamily: {

@@ -13,7 +13,10 @@ const PageLink = ({ url, pageName, children }: PageLinkProps) => (
       <h3 className="text-lg text-center my-2 px-2">{pageName}</h3>
       <div className="w-full border-y border-slate-400">
         <Image
-          src={`/pages/${pageName.replace('/', '')}.webp`}
+          src={`https://cdn.tabletop.media/thegame.tools/fluxfall/pages/${pageName.replace(
+            '/',
+            ''
+          )}.webp`}
           width={640}
           height={320}
           alt={pageName}
