@@ -1,11 +1,9 @@
 import { ChangeEvent, useCallback, useMemo, useState } from 'react'
-import Toggle from 'react-toggle'
 
 import { rollOnTable, TableGenerator, useKey } from '@thegametools/utils'
 
 import { boons, complications, compTypes } from '../data/bc'
 import { CompTypes } from '../data/bc/complications'
-import BoonIcon from './BoonIcon'
 import TableProperty from './TableProperty'
 
 const BoonsComplicationsGenerator = () => {
@@ -52,20 +50,34 @@ const BoonsComplicationsGenerator = () => {
 
   return (
     <>
-      <label className="flex justify-center">
-        <span className={`pr-3 ${!isBoons ? 'text-gray-500' : ''}`}>Boons</span>
-        <Toggle
-          defaultChecked={isBoons}
-          onChange={() => {
-            setIsBoons(!isBoons)
-            setBCList([])
-          }}
-          icons={{
-            checked: <BoonIcon isBoon={true} />,
-            unchecked: <BoonIcon isBoon={false} />,
-          }}
-        />
-        <span className={`pl-3 ${!isBoons ? '' : 'text-gray-500'}`}>Complications</span>
+      <label className="flex gap-4 justify-center">
+        <label className={`${!isBoons ? 'text-gray-500' : ''}`}>
+          Boons
+          <input
+            type="radio"
+            name="boons-complications"
+            checked={isBoons}
+            onChange={() => {
+              setIsBoons(true)
+              setBCList([])
+            }}
+            className="ml-2"
+          />
+        </label>
+
+        <label>
+          <input
+            type="radio"
+            name="boons-complications"
+            checked={!isBoons}
+            onChange={() => {
+              setIsBoons(false)
+              setBCList([])
+            }}
+            className="mr-1"
+          />
+          <span className={`${!isBoons ? '' : 'text-gray-500'}`}>Complications</span>
+        </label>
       </label>
       <div className="my-4">
         <button
@@ -86,7 +98,7 @@ const BoonsComplicationsGenerator = () => {
               <li key={ct} className="m-2">
                 <label
                   className={`hover:cursor-pointer border border-slate-800 rounded-md px-2 py-1 tracking-wide text-sm font-bold ${
-                    comps.has(ct) ? 'bg-tgt text-white' : 'bg-white'
+                    comps.has(ct) ? 'bg-flux text-white' : 'bg-white'
                   }`}
                 >
                   <input
