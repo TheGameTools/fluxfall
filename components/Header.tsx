@@ -43,7 +43,6 @@ const Header = ({ name, sm = false }: HeaderProps) => {
         >
           <Image
             src={`https://cdn.tabletop.media/thegame.tools/fluxfall/${img}`}
-            layout="intrinsic"
             width={size[0]}
             height={size[1]}
             alt="Fluxfall Horizon"

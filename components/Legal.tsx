@@ -6,10 +6,10 @@ const Legal = () => (
     <div className="text-center my-2">
       <Image
         src="https://cdn.tabletop.media/thegame.tools/fluxfall/fluxfall-legal.png"
-        width="200"
-        height="86"
+        width={200}
+        height={86}
         alt="Fluxfall Compatible"
-        loading="lazy"
+        priority
       />
     </div>
     <p>
