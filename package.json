@@ -1,6 +1,6 @@
 {
-  "name": "@thegametools/fluxfalltools",
-  "version": "0.0.1",
+  "name": "@thegametools/fluxfall",
+  "version": "0.0.2",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
