@@ -1244,10 +1244,10 @@
     lodash.isplainobject "^4.0.6"
     lodash.merge "^4.6.2"
 
-"@thegametools/utils@^0.1.64":
-  version "0.1.64"
-  resolved "https://registry.yarnpkg.com/@thegametools/utils/-/utils-0.1.64.tgz#53bb511a2aeed13ea2be9c3524832b51db4f8c42"
-  integrity sha512-0KoANc/Xdatl/v1+bPNzcG2W3ej91WB36JnctvqTxSZAzkqesIET4sVEtgAua8bAP4rOik3S+ZNUJZg+og3jgg==
+"@thegametools/utils@^0.1.67":
+  version "0.1.67"
+  resolved "https://registry.yarnpkg.com/@thegametools/utils/-/utils-0.1.67.tgz#dbefc369a5ce718d8727c71897339027b7aeeef3"
+  integrity sha512-C88AVJY2G2rGfaXFl18Mwifghf85LQ4RmRscQgbIBlfrwAKsA7rsrOnYIYxSoU2lqTrK/sai62SiVk9nA64Xew==
 
 "@types/eslint@^8.4.2":
   version "8.4.6"
