@@ -6,12 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "nuke": "rm -rf node_modules && rm yarn.lock && yarn"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.10",
-    "@thegametools/utils": "^0.1.67",
-    "clsx": "^1.1.1",
+    "@thegametools/utils": "^0.3.1",
+    "clsx": "^1.2.1",
     "lodash": "^4.17.21",
     "next": "12.2.5",
     "react": "18.2.0",

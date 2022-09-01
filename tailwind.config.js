@@ -1,5 +1,9 @@
 module.exports = {
-  content: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
+  content: [
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './node_modules/@thegametools/utils/dist/**/*.js',
+  ],
   theme: {
     extend: {
       colors: {
