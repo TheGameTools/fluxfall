@@ -7,10 +7,12 @@ import Lite from 'react-lite-youtube-embed'
 import Header from '../components/Header'
 import PageLink from '../components/PageLink'
 
+const TITLE = 'Fluxfall Horizon Generators' as const
+
 const Home: NextPage = () => (
   <main className="container px-4 flex items-center flex-col">
     <Head>
-      <title>Fluxfall Horizon Tables</title>
+      <title>{TITLE}</title>
     </Head>
     <Header name="Roll Tables" />
     <article className="flex flex-wrap justify-center items-center py-6 lg:max-w-screen-lg md:max-w-screen-md w-full">

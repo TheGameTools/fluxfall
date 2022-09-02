@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import { NavBar as Nav } from '@thegametools/utils'
 
 const links = [
@@ -31,6 +33,13 @@ const links = [
   },
 ]
 
-const NavBar = () => <Nav subText="For Fluxfall Horizon" links={links} />
+const NavBar = () => (
+  <Nav
+    image={Image}
+    subText="For Fluxfall Horizon"
+    links={links}
+    className="bg-white h-20 py-1 px-4"
+  />
+)
 
 export default NavBar

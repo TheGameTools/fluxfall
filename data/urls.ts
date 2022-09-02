@@ -3,5 +3,4 @@ export const urls = {
   quick: 'https://www.drivethrurpg.com/product/370860/Fluxfall-Horizon-Quickstart',
   full: 'https://www.drivethrurpg.com/product/392597/Fluxfall-Horizon',
   pbta: 'https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse',
-  ogImg: 'https://cdn.tabletop.media/thegame.tools/fluxfall/ogimg.jpg',
 }
