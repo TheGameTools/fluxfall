@@ -39,6 +39,7 @@ const NavBar = () => (
     subText="For Fluxfall Horizon"
     links={links}
     className="bg-white h-20 py-1 px-4"
+    showRight
   />
 )
 
