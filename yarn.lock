@@ -1245,10 +1245,10 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@thegametools/utils@^0.3.11":
-  version "0.3.11"
-  resolved "https://registry.yarnpkg.com/@thegametools/utils/-/utils-0.3.11.tgz#16150b9332128530c9942c3b6eb45ac296410f82"
-  integrity sha512-tLTG87U1CLf4uteh/E/6AIRDBAviZA1pfXgx5Pb23GQLQ9Eomffxk6P8WDnUWphKI7l7kaS9GNFaNXLKvknLpw==
+"@thegametools/utils@^0.3.13":
+  version "0.3.13"
+  resolved "https://registry.yarnpkg.com/@thegametools/utils/-/utils-0.3.13.tgz#1fcd26c1e68c05f08ae785fcf14c633bf2ad42d7"
+  integrity sha512-ORmyHzKKE/dDygTdiR+SZCxEYCFz9Q9jBYylUm76K5etUITghmuE1ESrAIAyeC99oZzXcucj0keVQl8N9LamYg==
   dependencies:
     nanoid "4.0.0"
     storybook-css-modules "^1.0.8"

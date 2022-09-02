@@ -31,7 +31,7 @@ class MyDocument extends Document {
             </Footer>
           </div>
           <NextScript />
-          <Github />
+          <Github repo="thegametools-fluxfall" />
         </body>
       </Html>
     )
